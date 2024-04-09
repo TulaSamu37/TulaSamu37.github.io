@@ -87,7 +87,7 @@ section{
         .columna{
         display: flex;
         flex-wrap: nowrap;
-        flex-flow: column;
+        flex-flow: column nowrap;
         margin: 0 auto;
         width: 97vw;
         height: 40vh;
@@ -100,7 +100,7 @@ section{
     }
 
     .titulo{
-        font-size: 4vW;
+        font-size: 4.5vW;
         margin-left: 1.5vw;
     }
 
@@ -109,7 +109,7 @@ section{
     }
 
     .texto{
-        font-size: 2.2vW;
+        font-size: 2.5vW;
         margin-left: 1.5vw;
     }
 
