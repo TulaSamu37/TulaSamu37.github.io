@@ -51,11 +51,6 @@ img, iframe{
     border-radius: 1vh;
 }
 
-#dos img{
-    background-size: cover;
-    width: 100px;
-}
-
 section{
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +64,7 @@ section{
 }
 
 #dos{
-    background-image: url(01_Sintra.jpg);
+    background-image: url(img_Sintra/01_Sintra.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     order: 2;
@@ -89,12 +84,12 @@ section{
 	flex-basis: 38%;
 }
 
-@media screen and (max-width: 1000px ){
+@media screen and (max-width: 767px ){
     
-        .columna{
+    .columna{
         display: flex;
         flex-wrap: nowrap;
-        flex-flow: column nowrap;
+        flex-flow: column;
         margin: 0 auto;
         width: 97vw;
         height: 40vh;
@@ -160,3 +155,4 @@ section{
     }
 
 }
+
