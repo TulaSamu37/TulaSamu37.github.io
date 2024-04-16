@@ -84,7 +84,7 @@ section{
 	flex-basis: 38%;
 }
 
-@media screen and (max-width: 767px ){
+@media screen and (max-width: 800px ){
     
     .columna{
         display: flex;
