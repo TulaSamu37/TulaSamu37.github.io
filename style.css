@@ -64,7 +64,7 @@ section{
 }
 
 #dos{
-    background-image: url(img_Sintra/01_Sintra.jpg);
+    background-image: url(01_Sintra.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     order: 2;
