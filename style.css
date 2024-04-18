@@ -84,11 +84,12 @@ section{
 	flex-basis: 38%;
 }
 
-@media screen and (max-width: 800px ){
+@media screen and (max-width: 1000px ){
     
     .columna{
         display: flex;
         flex-flow: column;
+	flex-wrap: wrap;
         margin: 0 auto;
         width: 97vw;
         height: 40vh;
