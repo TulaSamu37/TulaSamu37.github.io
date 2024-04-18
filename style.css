@@ -88,7 +88,6 @@ section{
     
     .columna{
         display: flex;
-        flex-wrap: nowrap;
         flex-flow: column;
         margin: 0 auto;
         width: 97vw;
